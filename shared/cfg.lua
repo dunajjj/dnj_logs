@@ -1,4 +1,4 @@
-dnj = {}
+dnj = {} -- lwk risky davat webhooky do configu xddd mal by som asi updatnut a urobit sv_config ale kto chce nech si to urobi sam vis co 
 
 dnj.hooks = {
     ['default'] = "", -- toto je fallback , ked neexistuje dnj.hooks pre dany channel , pouzije sa tento webhook
