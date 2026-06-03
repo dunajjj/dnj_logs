@@ -5,7 +5,7 @@ dnj.hooks = {
 }
 
 dnj.colors = {
-    ['info'] = 3447003, -- info je tiez fallback , ked farba neexistuje automaticky to ma farbu infa (modru)
+    ['info'] = 3447003, -- info je tiez fallback , ked typ farby neexistuje automaticky to ma farbu infa (modru)
     ['success'] = 5763719, 
     ['error'] = 15158332,  
     ['warning'] = 16776960 
