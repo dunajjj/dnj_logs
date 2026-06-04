@@ -1,10 +1,8 @@
 --[[ USAGE EXAMPLE (SERVER SIDE) : ]]
 
-AddEventHandler('dnj:example', function()
+AddEventHandler('dnj:example', function(source,item,count)
 RegisterNetEvent('dnj:example')
     local playername = GetPlayerName(source)
-    local item = "money"
-    local count = 10
     exports.ox_inventory:AddItem(source, item, count)
     exports['dnj_logs']:sendlog(
     --- @param dnjhooks string
