@@ -4,7 +4,7 @@ author 'dnj'
 --.shared_script {'shared/*.lua'}
 server_script {
   'server/*.lua',
-  'shared/*.lua'
+  'shared/sv_cfg.lua'
 }
 
 export 'sendlog'
