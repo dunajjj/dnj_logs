@@ -5,11 +5,11 @@ RegisterNetEvent('dnj:example')
     local playername = GetPlayerName(source)
     exports.ox_inventory:AddItem(source, item, count)
     exports['dnj_logs']:sendlog(
-    --- @param dnjhooks string
+--- @param dnjhooks string
     'example', -- dnj.hooks {['example'] = "webhook"}
     'test - test', -- webhook title
     'Hráč **' .. playername .. '** dostal předmět **' .. item .. '**. Počet : **'.. count .. '**x.', -- webhook description
-    --- @param type string 'info' | 'success' | 'error' | 'warning'
+--- @param type string 'info' | 'success' | 'error' | 'warning'
     'info' -- dnj.colors
     )
 end)
